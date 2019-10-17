@@ -96,7 +96,7 @@ public class BlogService {
 
 		BlogVo blogVo = blogDao.getBlogInfo(id);
 		PostVo postVo = postDao.viewPost(postNo);
-		System.out.println(postVo);
+		System.out.println(blogVo);
 		List<PostVo> listPostVo = postDao.getPostList(categoryNo);
 		List<CategoryVo> listCategoryVo = categoryDao.getCategoryList(id);
 

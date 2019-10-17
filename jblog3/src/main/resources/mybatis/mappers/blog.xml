@@ -33,7 +33,7 @@
 	
 	<select id="getBlogInfo" parameterType="string" resultType="blogvo">
 		<![CDATA[
-		select *
+		select id,title,logo
 		  from blog
 		 where id = #{id }		
 		]]>
